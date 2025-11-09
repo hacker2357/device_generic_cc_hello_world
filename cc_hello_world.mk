@@ -1,5 +1,5 @@
 
-$()
+$(call inherit-product, vendor/lineage/build/target/product/lineage_sdk_phone_arm64.mk)
 
 BOARD_SEPOLICY_DIRS += \
     device/generic/cc_hello_world/sepolicy
@@ -7,3 +7,4 @@ BOARD_SEPOLICY_DIRS += \
 BOARD_SEPOLICY_UNION += \
     file_contexts
 
+PRODUCT_NAME := lineage_cc_hello_world
