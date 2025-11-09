@@ -1,0 +1,5 @@
+service cc_hello_world /vendor/bin/hw/cc_hello_world
+    class main
+    user system
+    group system
+    oneshot

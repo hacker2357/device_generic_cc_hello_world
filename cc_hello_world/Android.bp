@@ -1,0 +1,17 @@
+
+cc_binary {
+    name: "cc_hello_world",
+    relative_install_path: "hw",
+    init_rc: ["vendor.cc_hello_world.rc"],
+    header_libs: [
+        "liblog_headers",
+    ],
+    srcs: [
+        "main.cc"
+    ],
+    shared_libs: [
+        "liblog",
+    ],
+    vendor: true,
+    proprietary: true,
+}

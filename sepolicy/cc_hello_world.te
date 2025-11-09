@@ -1,0 +1,3 @@
+init_daemon_domain(cc_hello_world)
+type cc_hello_world, domain;
+type cc_hello_world_exec, vendor_file_type, exec_type, file_type;
