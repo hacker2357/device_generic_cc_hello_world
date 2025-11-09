@@ -1,6 +1,8 @@
 
 $(call inherit-product, vendor/lineage/build/target/product/lineage_sdk_phone_arm64.mk)
 
+include vendor/lineage/build/target/product/lineage_generic_target.mk
+
 BOARD_SEPOLICY_DIRS += \
     device/generic/cc_hello_world/sepolicy
 
